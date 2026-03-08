@@ -7,9 +7,9 @@ export default function Footer() {
           {/* About */}
           <div>
             <img
-              src="https://public.readdy.ai/ai/img_res/2aab7997-78ca-4869-a6de-8fd34023868f.png"
+              src="/saflogo.png"
               alt="SAF Institute"
-              className="h-12 w-auto mb-6"
+              className="h-12 w-auto mb-6 object-contain"
             />
             <p className="text-white/70 leading-relaxed mb-6">
               Ghana's premier German language institute, helping students achieve their dreams of studying, working, and living in Germany.
