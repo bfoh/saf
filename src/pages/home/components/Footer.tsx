@@ -10,7 +10,7 @@ export default function Footer() {
               <img
                 src="/saflogo.png"
                 alt="SAF Institute"
-                className="h-16 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity drop-shadow-md"
+                className="h-24 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity drop-shadow-md"
               />
             </div>
             <p className="text-white/70 leading-relaxed mb-6">

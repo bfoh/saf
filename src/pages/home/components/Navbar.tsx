@@ -14,7 +14,7 @@ export default function Navbar({ scrolled }: NavbarProps) {
             <img
               src="/saflogo.png"
               alt="SAF Institute"
-              className={`h-16 w-auto object-contain transition-all duration-300 drop-shadow-md ${scrolled ? '' : 'brightness-0 invert'}`}
+              className={`h-24 w-auto object-contain transition-all duration-300 drop-shadow-md ${scrolled ? '' : 'brightness-0 invert'}`}
             />
           </div>
 
