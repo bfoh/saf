@@ -10,15 +10,12 @@ export default function Navbar({ scrolled }: NavbarProps) {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <div className="flex items-center gap-3">
+          <div className="flex items-center">
             <img
               src="/saflogo.png"
               alt="SAF Institute"
-              className={`h-12 w-auto object-contain transition-all duration-300 ${scrolled ? '' : 'brightness-0 invert'}`}
+              className={`h-16 w-auto object-contain transition-all duration-300 drop-shadow-md ${scrolled ? '' : 'brightness-0 invert'}`}
             />
-            <span className={`font-['Poppins'] font-bold text-xl tracking-tight transition-colors duration-300 ${scrolled ? 'text-[#0F6B3E]' : 'text-white'}`}>
-              SAF Institute
-            </span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">

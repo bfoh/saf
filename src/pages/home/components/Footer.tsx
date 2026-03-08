@@ -6,15 +6,12 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex items-center mb-6">
               <img
                 src="/saflogo.png"
                 alt="SAF Institute"
-                className="h-12 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                className="h-16 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity drop-shadow-md"
               />
-              <span className="font-['Poppins'] font-bold text-xl tracking-tight text-white">
-                SAF Institute
-              </span>
             </div>
             <p className="text-white/70 leading-relaxed mb-6">
               Ghana's premier German language institute, helping students achieve their dreams of studying, working, and living in Germany.
