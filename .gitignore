@@ -1,0 +1,6 @@
+# Local Netlify folder
+.netlify
+node_modules
+out/
+.DS_Store
+auto-imports.d.ts
